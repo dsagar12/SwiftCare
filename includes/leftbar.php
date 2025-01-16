@@ -2,7 +2,7 @@
                         <div class="sidebar-content">
                             <div class="user-info closed">
                                 
-                                <h6 class="title">PLGPL</h6>
+                                <h6 class="title">SGGS</h6>
                                 <small class="info">Administrator</small>
                             </div>
                             <!-- /.user-info -->
@@ -21,15 +21,15 @@
                                         <span class="">Appearance</span>
                                     </li>
                                     <li class="has-children">
-                                        <a href="#"><i class="fa fa-file-text"></i> <span>Student Classes</span> <i class="fa fa-angle-right arrow"></i></a>
+                                        <a href="#"><i class="fa fa-file-text"></i> <span>Doctor Details</span> <i class="fa fa-angle-right arrow"></i></a>
                                         <ul class="child-nav">
-                                            <li><a href="create-class.php"><i class="fa fa-bars"></i> <span>Create Class</span></a></li>
-                                            <li><a href="manage-classes.php"><i class="fa fa fa-server"></i> <span>Manage Classes</span></a></li>
+                                            <li><a href="create-class.php"><i class="fa fa-bars"></i> <span>Add Doctor</span></a></li>
+                                            <li><a href="manage-classes.php"><i class="fa fa fa-server"></i> <span>Manage Doctor</span></a></li>
                                            
                                         </ul>
                                     </li>
   <li class="has-children">
-                                        <a href="#"><i class="fa fa-file-text"></i> <span>Subjects</span> <i class="fa fa-angle-right arrow"></i></a>
+                                        <a href="#"><i class="fa fa-file-text"></i> <span>Disease</span> <i class="fa fa-angle-right arrow"></i></a>
                                         <ul class="child-nav">
                                             <li><a href="create-subject.php"><i class="fa fa-bars"></i> <span>Create Subject</span></a></li>
                                             <li><a href="manage-subjects.php"><i class="fa fa fa-server"></i> <span>Manage Subjects</span></a></li>
@@ -38,20 +38,14 @@
                                         </ul>
                                     </li>
    <li class="has-children">
-                                        <a href="#"><i class="fa fa-users"></i> <span>Students</span> <i class="fa fa-angle-right arrow"></i></a>
+                                        <a href="#"><i class="fa fa-users"></i> <span>Patient</span> <i class="fa fa-angle-right arrow"></i></a>
                                         <ul class="child-nav">
-                                            <li><a href="add-students.php"><i class="fa fa-bars"></i> <span>Add Students</span></a></li>
-                                            <li><a href="manage-students.php"><i class="fa fa fa-server"></i> <span>Manage Students</span></a></li>
+                                            <li><a href="add-students.php"><i class="fa fa-bars"></i> <span>Add patient</span></a></li>
+                                            <li><a href="manage-students.php"><i class="fa fa fa-server"></i> <span>Manage Patient</span></a></li>
                                            
                                         </ul>
                                     </li>
-<li class="has-children">
-                                        <a href="#"><i class="fa fa-info-circle"></i> <span>Result</span> <i class="fa fa-angle-right arrow"></i></a>
-                                        <ul class="child-nav">
-                                            <li><a href="add-result.php"><i class="fa fa-bars"></i> <span>Add Result</span></a></li>
-                                            <li><a href="manage-results.php"><i class="fa fa fa-server"></i> <span>Manage Result</span></a></li>
-                                           
-                                        </ul>        </li>
+
 
 
 <li class="has-children">

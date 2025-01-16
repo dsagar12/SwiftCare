@@ -12,7 +12,7 @@ if(strlen($_SESSION['alogin'])=="")
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
     	<meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Student Result Management System | Dashboard</title>
+        <title>SwiftCare | Dashboard</title>
         <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" >
         <link rel="stylesheet" href="css/font-awesome.min.css" media="screen" >
         <link rel="stylesheet" href="css/animate-css/animate.min.css" media="screen" >
@@ -60,7 +60,7 @@ $totalstudents=$query1->rowCount();
 ?>
 
                                             <span class="number counter"><?php echo htmlentities($totalstudents);?></span>
-                                            <span class="name">Regd Users</span>
+                                            <span class="name">Regd Patient</span>
                                             <span class="bg-icon"><i class="fa fa-users"></i></span>
                                         </a>
                                         <!-- /.dashboard-stat -->
@@ -77,7 +77,7 @@ $results=$query->fetchAll(PDO::FETCH_OBJ);
 $totalsubjects=$query->rowCount();
 ?>
                                             <span class="number counter"><?php echo htmlentities($totalsubjects);?></span>
-                                            <span class="name">Subjects Listed</span>
+                                            <span class="name">Doctor Listed</span>
                                             <span class="bg-icon"><i class="fa fa-ticket"></i></span>
                                         </a>
                                         <!-- /.dashboard-stat -->
@@ -94,7 +94,7 @@ $results2=$query2->fetchAll(PDO::FETCH_OBJ);
 $totalclasses=$query2->rowCount();
 ?>
                                             <span class="number counter"><?php echo htmlentities($totalclasses);?></span>
-                                            <span class="name">Total classes listed</span>
+                                            <span class="name">Total Disease listed</span>
                                             <span class="bg-icon"><i class="fa fa-bank"></i></span>
                                         </a>
                                         <!-- /.dashboard-stat -->
@@ -190,7 +190,7 @@ $totalresults=$query3->rowCount();
                   "showMethod": "fadeIn",
                   "hideMethod": "fadeOut"
                 }
-                toastr["success"]( "Welcome to student Result Management System!");
+                toastr["success"]( "Welcome to SwiftCare !");
 
             });
         </script>

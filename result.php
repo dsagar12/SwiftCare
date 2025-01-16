@@ -9,7 +9,7 @@ include('includes/config.php');
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
     	<meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Result Management System</title>
+        <title>SwiftCare</title>
         <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" >
         <link rel="stylesheet" href="css/font-awesome.min.css" media="screen" >
         <link rel="stylesheet" href="css/animate-css/animate.min.css" media="screen" >
@@ -30,7 +30,7 @@ include('includes/config.php');
                         <div class="container-fluid">
                             <div class="row page-title-div">
                                 <div class="col-md-12">
-                                    <h2 class="title" align="center">Result Management System</h2>
+                                    <h2 class="title" align="center">SwiftCare</h2>
                                 </div>
                             </div>
                             <!-- /.row -->
@@ -50,7 +50,7 @@ include('includes/config.php');
                                         <div class="panel">
                                             <div class="panel-heading">
                                                 <div class="panel-title">
-                                                    <h3 align="center">Student Result Details</h3>
+                                                    <h3 align="center">Hospital Details</h3>
                                                     <hr />
 <?php
 // code Student Data

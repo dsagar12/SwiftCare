@@ -58,7 +58,7 @@ if(strlen($_SESSION['alogin'])=="")
                         <div class="container-fluid">
                             <div class="row page-title-div">
                                 <div class="col-md-6">
-                                    <h2 class="title">Manage Students</h2>
+                                    <h2 class="title">Manage Patient</h2>
                                 
                                 </div>
                                 
@@ -69,8 +69,8 @@ if(strlen($_SESSION['alogin'])=="")
                                 <div class="col-md-6">
                                     <ul class="breadcrumb">
             							<li><a href="dashboard.php"><i class="fa fa-home"></i> Home</a></li>
-                                        <li> Students</li>
-            							<li class="active">Manage Students</li>
+                                        <li> Patient</li>
+            							<li class="active">Manage Patient</li>
             						</ul>
                                 </div>
                              
@@ -90,7 +90,7 @@ if(strlen($_SESSION['alogin'])=="")
                                         <div class="panel">
                                             <div class="panel-heading">
                                                 <div class="panel-title">
-                                                    <h5>View Students Info</h5>
+                                                    <h5>View Patient Info</h5>
                                                 </div>
                                             </div>
 <?php if($msg){?>
@@ -108,9 +108,9 @@ else if($error){?>
                                                     <thead>
                                                         <tr>
                                                             <th>#</th>
-                                                            <th>Student Name</th>
-                                                            <th>Roll Id</th>
-                                                            <th>Class</th>
+                                                            <th>Patient Name</th>
+                                                            <th>Patient Id</th>
+                                                            <th>Doctor  </th>
                                                             <th>Reg Date</th>
                                                             <th>Status</th>
                                                             <th>Action</th>

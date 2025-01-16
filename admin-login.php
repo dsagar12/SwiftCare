@@ -48,7 +48,7 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
 
             <div class="">
                 <div class="row">
- <h1 align="center">Student Result Management System</h1>
+ <h1 align="center">SwiftCare</h1>
                     
                          <div class="col-lg-3"></div>
                     <div class="col-lg-6">
@@ -94,7 +94,7 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
                                                 </div>
                                             </div>
                                             <!-- /.panel -->
-                                            <p class="text-muted text-center"><small>Student Result Management System</small></p>
+                                            <p class="text-muted text-center"><small>SwiftCare</small></p>
                                         </div>
                                         <!-- /.col-md-11 -->
                                     </div>
